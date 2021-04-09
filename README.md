@@ -5,7 +5,7 @@ Process of extracting data from various glucometers using [glucometerutils](http
 ## How to run
 ```bash
 > docker build -t glucutils .
-> docker run -it -v /dev:/dev -v $(pwd):/workspace --privileged glucutils bash
+> docker run -it -v /dev:/dev -v $(pwd):/workspace --privileged --rm glucutils bash
 
 $ python3 -m venv $(pwd)/glucometerutils-venv
 $ . glucometerutils-venv/bin/activate

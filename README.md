@@ -29,7 +29,7 @@ $ . glucometerutils-venv/bin/activate
 
 ### Data format
 
-```json
+```jsonc
 {
   "type": "array",
   "name": "data",
